@@ -11,7 +11,7 @@ class YandexGeocode
 	public $longitude2;	// Долгота 2й точки
 	
 	function __construct(){
-		$this->apiKey = 'cec3d789-49df-4f59-a1b2-44961ffc5673';
+		$this->apiKey = 'ваш API-ключ';
 	}
 
 	/**
@@ -80,6 +80,7 @@ class YandexGeocode
 			return ceil( $d );  
 	}
 }
+
 
 
 
