@@ -15,7 +15,7 @@ $json = $YandexGeocode->getInfo([
 //Получение первой (ближайшей) координаты из ответа
 $coordinates = $YandexGeocode->getCoord( $json );
 
-//Вычисления расстояния между двух точек
+//Вычисление расстояния между двух точек
 $distance = $YandexGeocode->getDistance();
 
 echo $distance.' м';
